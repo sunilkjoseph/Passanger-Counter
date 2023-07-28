@@ -1,0 +1,55 @@
+body {
+    background-image: url("station1.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+    border: 1px solid yellow;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid wheat;
+    border-radius: 10px;    
+    max-width: 40%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
